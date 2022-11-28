@@ -48,7 +48,7 @@ class CitiesList: UITableViewController {
     
     //загрузка данных с апи погода
     func requestData(city: String){
-        var params = ["q": city]
+        let params = ["q": city]
         AF.request(url, method: .get, parameters: params).response { [self] response in
             switch response.result{
             case .success(let value):

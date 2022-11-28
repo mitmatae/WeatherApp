@@ -49,6 +49,7 @@
                                         <constraint firstAttribute="bottomMargin" secondItem="Wuw-wx-9ZO" secondAttribute="bottom" id="U5r-EW-0o3"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="jwp-dw-sbp" secondAttribute="bottom" id="cSh-vT-V6L"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="Wuw-wx-9ZO" secondAttribute="trailing" constant="10" id="hOq-DD-L5p"/>
+                                        <constraint firstItem="Wuw-wx-9ZO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="jwp-dw-sbp" secondAttribute="trailing" constant="8" symbolic="YES" id="nwa-9V-CuR"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" name="blue"/>
